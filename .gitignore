@@ -1,0 +1,11 @@
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# venv（重家伙，不进仓）
+env/
+
+# 语音成品不随仓分发（真人嗓音；仓内文档有说明，可用 render_scan.py 自行重生成）
+*.wav

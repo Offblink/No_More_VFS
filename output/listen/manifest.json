@@ -1,0 +1,79 @@
+[
+  {
+    "file": "world_p7_fplus0.wav",
+    "backend": "world",
+    "pitch": 7,
+    "formant": 0,
+    "rms": 0.0444,
+    "voiced_ratio": 0.741,
+    "f0_median": 197.7,
+    "f0_p10": 142.4,
+    "f0_p90": 253.4
+  },
+  {
+    "file": "world_p7_fplus2.wav",
+    "backend": "world",
+    "pitch": 7,
+    "formant": 2,
+    "rms": 0.0463,
+    "voiced_ratio": 0.772,
+    "f0_median": 196.8,
+    "f0_p10": 137.4,
+    "f0_p90": 253.6
+  },
+  {
+    "file": "world_p9_fplus0.wav",
+    "backend": "world",
+    "pitch": 9,
+    "formant": 0,
+    "rms": 0.0434,
+    "voiced_ratio": 0.782,
+    "f0_median": 218.4,
+    "f0_p10": 140.8,
+    "f0_p90": 280.1
+  },
+  {
+    "file": "world_p9_fplus2.wav",
+    "backend": "world",
+    "pitch": 9,
+    "formant": 2,
+    "rms": 0.0465,
+    "voiced_ratio": 0.757,
+    "f0_median": 222.4,
+    "f0_p10": 163.1,
+    "f0_p90": 282.7
+  },
+  {
+    "file": "world_p12_fplus0.wav",
+    "backend": "world",
+    "pitch": 12,
+    "formant": 0,
+    "rms": 0.043,
+    "voiced_ratio": 0.724,
+    "f0_median": 265.2,
+    "f0_p10": 190.1,
+    "f0_p90": 341.7
+  },
+  {
+    "file": "world_p12_fplus2.wav",
+    "backend": "world",
+    "pitch": 12,
+    "formant": 2,
+    "rms": 0.0446,
+    "voiced_ratio": 0.731,
+    "f0_median": 264.0,
+    "f0_p10": 188.6,
+    "f0_p90": 336.9
+  },
+  {
+    "file": "ab_p9_fplus2_praat.wav",
+    "backend": "praat",
+    "pitch": 9,
+    "formant": 2,
+    "rms": 0.0407,
+    "voiced_ratio": 0.717,
+    "f0_median": 214.8,
+    "f0_p10": 148.9,
+    "f0_p90": 273.2
+  }
+]

@@ -1,0 +1,11 @@
+# No_More_VFS runtime dependencies — Python 3.13, `pip install -r requirements.txt`
+# 开发门禁（跑测试才需要）: ruff==0.16.10  pytest==9.1.1
+
+pyworld==0.3.5                  # WORLD 声码器，world 后端（注意：只有 0.3.5 有 cp313 win 轮子）
+praat-parselmouth==0.4.7        # Praat PSOLA，praat 后端
+soundfile==0.14.0               # wav 读写
+sounddevice==0.5.6              # WASAPI 采集/输出
+numpy==2.5.3
+scipy==1.18.1
+PySide6==6.11.2                 # Qt
+PySide6-Fluent-Widgets==1.11.3  # Fluent 界面（PySide6 版，装在项目 venv 内）
