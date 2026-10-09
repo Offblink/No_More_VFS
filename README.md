@@ -108,6 +108,17 @@ pip install triton-windows==3.2.0.post13
 set HF_ENDPOINT=https://hf-mirror.com
 ```
 
+**下载卡住 / 镜像报错怎么办**
+（日志刷 `MaxRetryError ... hf-mirror.com ... SSLError: EOF occurred in violation of protocol`）：
+
+- 权重已在本地（跑过一次）→ 这只是镜像的 HEAD 探测在重试，不是缺文件。
+  设 `set HF_HUB_OFFLINE=1` 再启动：跳过联网核验，实测 0.02 s 直接进加载。
+- 权重确实没有 → `hf-mirror.com` 偶发 TLS 中断：换网络重试，或挂代理直连 HuggingFace，或预下载：
+
+  ```bash
+  hf download Plachta/Seed-VC DiT_uvit_tat_xlsr_ema.pth --cache-dir checkpoints
+  ```
+
 ### 2. 实时变声（开会/直播用）
 
 ```bash
